@@ -5,142 +5,67 @@
     <link href="images/google_shortcut_icon.ico" rel="shortcut icon">
     <title>Google Home Page</title>
     <link rel="stylesheet" type="text/css" href="main.css">
+	<link rel="stylesheet" type="text/css" href="http://at.alicdn.com/t/font_533302_ruyuoj51mt.css">
+    
 </head>
 <body>
 <div id="upper_part">
     <div id="aux">
-        <a class="upper-link" href="#">Gmail</a>
-        <a class="upper-link" href="#">Images</a>
-        <a id="google_apps" href="#" tabindex="0"></a>
-        <div id="border_triangle" class="triangle"></div>
-        <div id="main_triangle" class="triangle"></div>
-        <div id="apps_menu">
-            <ul style="height: 400px">
-                <li>
-                    <a href="#">
-                        <span class="app-image" style="background-position:0 -1242px"></span>
-                        <span class="app-text">My Account</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <span class="app-image" style="background-position:0 -2001px"></span>
-                        <span class="app-text">Search</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <span class="app-image" style="background-position:0 -621px"></span>
-                        <span class="app-text">Maps</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <span class="app-image" style="background-position:0 -966px"></span>
-                        <span class="app-text">YouTube</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <span class="app-image" style="background-position:0 -483px"></span>
-                        <span class="app-text">Play</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <span class="app-image" style="background-position:0 -1035px"></span>
-                        <span class="app-text">Gmail</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <span class="app-image" style="background-position:0 -897px"></span>
-                        <span class="app-text">Drive</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <span class="app-image" style="background-position:0 -1794px"></span>
-                        <span class="app-text">Calendar</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <span class="app-image" style="background-position:0 -414px"></span>
-                        <span class="app-text">Google+</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <span class="app-image" style="background-position:0 -1104px"></span>
-                        <span class="app-text">Translate</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <span class="app-image" style="background-position:0 -69px"></span>
-                        <span class="app-text">Photos</span>
-                    </a>
-                </li>
-            </ul>
-            <a id="more" class="more-apps" href="#">More</a>
-            <hr>
-            <ul id="more_apps_ul" style="display: none">
-                <li>
-                    <a href="#">
-                        <span class="app-image" style="background-position:0 -2070px"></span>
-                        <span class="app-text">Docs</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <span class="app-image" style="background-position:0 -276px"></span>
-                        <span class="app-text">Blogger</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <span class="app-image" style="background-position:0 -1449px"></span>
-                        <span class="app-text">Contacts</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <span class="app-image" style="background-position:0 -1311px"></span>
-                        <span class="app-text">Hangouts</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <span class="app-image" style="background-image: url(images/google_keep.png); background-size: 64px 64px;"></span>
-                        <span class="app-text">Keep</span>
-                    </a>
-                </li>
-            </ul>
-            <a id="even_more" class="more-apps" href="#">Even more from Google</a>
-        </div>
-        <a id="sign_in" href="#">Sign in</a>
+        <a class="upper-link" href="#"><em class="iconfont icon-github"></em> Github登录</a>
+        <a class="upper-link" href="#"><em class="iconfont icon-setting"></em> 设置</a>
     </div>
 </div>
 <div id="central_part">
     <div id="logo">
-        <div id="logo_subtext">Belarus</div>
+        <div id="logo_subtext">切换搜索</div>
     </div>
     <div id="search_line" class="usual">
         <input id="search" maxlength="2048" autocomplete="off" autofocus="autofocus" title="Search" type="text">
-        <a id="by_voice" href="#" title="Search by voice"></a>
     </div>
-    <div id="buttons">
+    <div id="page_language">
+        <span style="color: #888">开发头条：</span>
+        <a class="language" href="#">最新数据库排行：Oracle 分数增长最多，Redis 持续下降</a>
+    </div>
+    <div id="buttons" style="display: none">
         <input id="search_button" class="button" value="Google Search" type="submit">
         <input class="button" value="I'm Feeling Lucky" type="submit">
     </div>
-    <div id="page_language">
-        Google.by offered in:
-        <a class="language" href="#">беларуская</a>
-        <a class="language" href="#">русский</a>
-    </div>
+    
 </div>
-<div id="footer">
+<div class="quick-link">
+	<div class="items">
+		<div class="item">
+			<a target="_blank" href="http://so.uigreat.com/" title="分数增长最多，Redis 持续下降">
+				<div class="web-logo">
+					<img class="img-responsive" src="http://img.ui100day.com/2017-10-19_59e851ca9a992.png" />
+	            </div>
+				<span class="web-name">UI100Day</span>
+			</a>
+		</div>
+		<div class="item">
+			<a target="_blank" href="#">
+				<div class="web-logo">
+					<img class="img-responsive" src="http://img.ui100day.com/2016-05-05_572b162fbdb73.jpg" />
+	            </div>
+				<span class="web-name">花瓣</span>
+			</a>
+		</div>
+		<div class="item">
+			<a target="_blank" href="#">
+				<div class="web-logo">
+					<img class="img-responsive" src="http://img.ui100day.com/2016-05-05_572afa7373544.png" />
+	            </div>
+				<span class="web-name">Pinterest</span>
+			</a>
+		</div>
+		<div class="item append">
+			<a target="_blank" href="#">
+				<span class="web-name"> <i class="iconfont icon-jia"></i> 添加网址</span>
+			</a>
+		</div>
+	</div>
+</div>
+<div id="footer" style="display: none">
     <span id="left_side">
         <a href="#">Advertising</a>
         <a href="#">Business</a>
@@ -160,6 +85,5 @@
         <a href="#">Use Google.com</a>
     </span>
 </div>
-<script src="index.js" type="text/javascript"></script>
 </body>
 </html>
