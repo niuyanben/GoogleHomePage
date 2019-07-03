@@ -20,7 +20,7 @@ body {
 }
 
 .upper-link {
-    margin-right: 15px;
+    margin-left: 30px;
     color: #000;
     line-height: 24px;
     text-decoration: none;
@@ -28,161 +28,8 @@ body {
 }
 
 .upper-link:hover {
-    text-decoration: underline;
+    text-decoration: none;
     opacity: .85;
-}
-
-#google_apps {
-    display: inline-block;
-    vertical-align: middle;
-    height: 20px;
-    width: 20px;
-    margin-right: 15px;
-    outline: none;
-    background-image: url(images/google_apps.png);
-    background-size: 20px 20px;
-    opacity: .55;
-}
-
-#google_apps:hover {
-    opacity: .85;
-}
-
-.triangle {
-    display: none;
-    position: absolute;
-    right: 117px;
-    height: 0;
-    width: 0;
-    border-left: 9px solid transparent;
-    border-right: 9px solid transparent;
-    z-index: 2;
-}
-
-#border_triangle {
-    top: 52px;
-    border-bottom: 9px solid lightgrey;
-}
-
-#main_triangle {
-    top: 53px;
-    border-bottom: 9px solid white;
-}
-
-#apps_menu {
-    display: none;
-    position: absolute;
-    top: 60px;
-    right: 30px;
-    height: 496px;
-    width: 320px;
-    border: 1px solid lightgrey;
-    background: #fff;
-    box-shadow: 0 2px 10px rgba(0,0,0,.2);
-    overflow-y: auto;
-    overflow-x: hidden;
-    z-index: 1;
-}
-
-#apps_menu ul {
-    width: 270px;
-    margin: 0;
-    padding: 28px;
-    padding-right: 27px;
-    text-align: left;
-}
-
-#apps_menu li {
-    display: inline-block;
-    height: 98px;
-    width: 80px;
-    margin: 0;
-    padding: 1px;
-    color: black;
-    vertical-align: top;
-}
-
-#apps_menu ul a{
-    display: inline-block;
-    margin: 8px 2px;
-    outline: none;
-    text-align: center;
-    text-decoration: none;
-}
-
-#apps_menu li a:hover {
-    border: 1px solid #dfdfdf;
-    border-radius: 2px;
-}
-
-.app-image {
-    display: inline-block;
-    height: 64px;
-    width: 64px;
-    vertical-align: top;
-    background-image: url(images/apps_images.png);
-    background-size: 64px 2134px;
-}
-
-.app-text {
-    color: black;
-}
-
-#more {
-    display: block;
-    height: 40px;
-    width: 320px;
-    color: #737373;
-    background: #f5f5f5;
-    font: 13px/40px Arial, sans-serif;
-    text-decoration: none;
-    text-align: center;
-    overflow: hidden;
-}
-
-#apps_menu hr {
-    display: none;
-    margin: 0 28px;
-    border-top: 1px solid #ebebeb;
-}
-
-.more-apps {
-    display: none;
-    height: 40px;
-    width: 320px;
-    color: #737373;
-    font: 13px/40px Arial, sans-serif;
-    overflow: hidden;
-    text-align: center;
-    text-decoration: none;
-}
-
-#more {
-    display: block;
-    background: #f5f5f5;
-}
-
-#sign_in {
-    display: inline-block;
-    padding: 0 12px;
-    border: 1px solid #4285f4;
-    border-radius: 2px;
-    background: -webkit-linear-gradient(top, #4387fd, #4683ea);
-    color: #fff;
-    font-weight: bold;
-    line-height: 28px;
-    text-decoration: none;
-    cursor: default;
-}
-
-#sign_in:hover {
-    box-shadow: 0 1px 0 rgba(0, 0, 0, .15)
-}
-
-#sign_in:active {
-    box-shadow: inset 0 2px 0 rgba(0,0,0,.15);
-    background: #3c78dc;
-    background: -webkit-linear-gradient(top, #3c7ae4, #3f76d3);
 }
 
 #central_part {
@@ -202,7 +49,7 @@ body {
 #logo_subtext {
     position: relative;
     top: 76px;
-    left: 215px;
+    left: 280px;
     color: #4285f4;
     font: 16px/16px Arial, sans-serif;
 }
@@ -243,14 +90,6 @@ body {
     border: none;
     outline: none;
     font: 16px Arial,sans-serif;
-}
-
-#by_voice {
-    display: inline-block;
-    height: 24px;
-    width: 24px;
-    background: url(images/google_microphone.png);
-    background-size: 24px 24px;
 }
 
 #buttons {
@@ -351,4 +190,65 @@ body {
 #settings_menu a:hover {
     color: black;
     opacity: .85;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.quick-link{
+    margin: 30px 0;
+}
+.quick-link .items{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.quick-link .items .item{
+    display: inline-table;
+    padding: 5px 15px;
+    margin: 5px;
+}
+.quick-link .items .item:hover{
+    background-color: #f8f8f8;
+}
+
+.quick-link .items .item.append{
+    padding: 5px 10px;
+    font-size: 15px;
+}
+
+.quick-link .items .item.append span.web-name{
+    color: #888;
+    font-weight: 400;
+}
+.quick-link .items .item a{
+    text-decoration: none;
+}
+
+.web-logo {
+    width: 40px;
+    height: 40px;
+    float: left;
+}
+.web-logo img.img-responsive {
+    border-radius: 50%;
+    max-height: 100%;
+}
+
+span.web-name {
+    line-height: 40px;
+    margin-left: 10px;
+    color: #3273dc;
+    word-wrap: break-word;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
 }
