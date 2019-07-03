@@ -212,7 +212,9 @@ body {
     width: 584px;
     margin: auto;
     margin-top: 30px;
-    border-radius: 2px;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
 }
 
 .usual {
@@ -220,7 +222,8 @@ body {
 }
 
 #search_line:hover {
-    box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.2), 0 0 0 1px rgba(0, 0, 0, 0.08);
+    box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
+    border-color: rgba(223,225,229,0);
 }
 
 .focused {
